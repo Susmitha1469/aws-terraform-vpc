@@ -1,0 +1,8 @@
+# Copy this file to terraform.tfvars and fill in your values
+# terraform.tfvars is in .gitignore and should NEVER be committed
+
+project_name = "your-project-name"      # e.g. "susmitha-devops"
+aws_region   = "us-east-1"
+az           = "us-east-1a"
+my_ip        = "YOUR_IP/32"             # run: curl -4 ifconfig.me
+db_password  = "YourSecurePassword123!" # min 8 chars, letters + numbers + symbol
